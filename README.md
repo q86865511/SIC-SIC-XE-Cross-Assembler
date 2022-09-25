@@ -70,7 +70,7 @@ Type 7：是String，如果是Literal的情況才會對機器碼的產生造成�
 最後會將處理後的機器碼分別設定到Assembler List中，並且呼叫ab.writeFile()於路徑下輸出正確的檔案。
 
 # 未完成的功能
-	格式上並未完全相同(white space)，且literal和EQU並沒有到完美，自己測的時候，若有多道literal和EQU存在，有時會出現object code少3的情況，還有就是若EQU後方是算式，
+格式上並未完全相同(white space)，且literal和EQU並沒有到完美，自己測的時候，若有多道literal和EQU存在，有時會出現object code少3的情況，還有就是若EQU後方是算式，
 且不為單純兩個symbol加減，例如乘法除法或是多個數字做運算等等的問題，都還未處理，但如果是(A+B ,A-B)則可以處理，還有括號無處理，最後是課本上的line運算有些不同，不為+5+5+5如此，
 我不太清楚是否要更改，因此並未如課本上的例題一樣(目前仍是+5+5+5)。
 
