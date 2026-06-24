@@ -1,0 +1,21 @@
+# Visual Studio / MSVC 編譯產物（可重新編譯，不該進版控）
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.exp
+*.lib
+*.idb
+vc*.pdb
+
+# Build 目錄
+Debug/
+Release/
+x64/
+.vs/
+
+# 編輯器 / 系統
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
