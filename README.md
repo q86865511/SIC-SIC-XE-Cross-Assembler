@@ -4,7 +4,7 @@
 
 ![language](https://img.shields.io/badge/language-C%2B%2B-00599C)
 ![platform](https://img.shields.io/badge/platform-Windows-blue)
-![license](https://img.shields.io/badge/license-未指定-lightgrey)
+![license](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
